@@ -35,13 +35,13 @@
   <img src="https://github.com/Lxvine/SWIMMER/blob/master/Screenshots/swimmer5.png" style=" width:300px">
 </p>
 
-<p align="center">6) SPLASH SCREEN: </p>
+<p align="center">6) ADD TRAINING SCREEN: </p>
 
 <p align="center">
   <img src="https://github.com/Lxvine/SWIMMER/blob/master/Screenshots/swimmer6.png" style=" width:300px">
 </p>
 
-<p align="center">7) SPLASH SCREEN: </p>
+<p align="center">7) STATS SHOWED ON MAIN MENU: </p>
 
 <p align="center">
   <img src="https://github.com/Lxvine/SWIMMER/blob/master/Screenshots/swimmer7.png" style=" width:300px">
