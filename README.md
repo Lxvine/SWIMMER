@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">5) TRAINING INFO: </p>
-<p align="center">Clicking on each training it shows the info. </p>
+<p align="center">Clicking on each training shows training info. </p>
 
 <p align="center">
   <img src="https://github.com/Lxvine/SWIMMER/blob/master/Screenshots/swimmer5.png" style=" width:300px">
