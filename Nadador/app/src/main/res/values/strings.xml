@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Nadador</string>
+    <string name="nadador_app">NADADOR APP</string>
+    <string name="todo">TODO</string>
+    <string name="ll">TODO</string>
+    <string name="a_ade">Añade</string>
+    <string name="volver">Volver</string>
+    <string name="mostrar_estadisticas_generales">mostrar estadisticas generales</string>
+    <string name="salir">SALIR</string>
+    <string name="a_adir_entrenamiento">añadir entrenamiento</string>
+    <string name="mostrar_estadisticas">mostrar estadisticas</string>
+    <string name="mostrar_todo">mostrar todo</string>
+    <string name="login">LOGIN</string>
+    <string name="altura">Altura:</string>
+    <string name="edad">Edad:</string>
+    <string name="asd">LOGIN</string>
+    <string name="peso">Peso:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="altura_en_cent_metros">Altura en centímetros:</string>
+    <string name="peso_en_kilogramos">Peso en kilogramos:</string>
+</resources>

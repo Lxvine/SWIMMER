@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/training">
+
+    <TextView
+        android:id="@+id/SignInTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/borde"
+        android:text="@string/login"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.134" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nombre"
+        android:layout_width="378dp"
+        android:layout_height="54dp"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        app:hintTextColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.515"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.246">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nombreHint"
+            android:layout_width="378dp"
+            android:layout_height="54dp"
+            android:background="@drawable/borde"
+            android:hint="@string/nombre"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="14sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/edad"
+        android:layout_width="378dp"
+        android:layout_height="54dp"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        app:hintTextColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/nombre"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/nombre"
+        app:layout_constraintTop_toBottomOf="@+id/nombre"
+        app:layout_constraintVertical_bias="0.083">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edadHint"
+            android:layout_width="378dp"
+            android:layout_height="54dp"
+            android:background="@drawable/borde"
+            android:hint="@string/edad"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="14sp"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/altura"
+        android:layout_width="378dp"
+        android:layout_height="54dp"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        app:hintTextColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/edad"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/edad"
+        app:layout_constraintTop_toBottomOf="@+id/edad"
+        app:layout_constraintVertical_bias="0.087">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/alturaHint"
+            android:layout_width="378dp"
+            android:layout_height="54dp"
+            android:background="@drawable/borde"
+            android:hint="@string/altura_en_cent_metros"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="14sp"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/peso"
+        android:layout_width="378dp"
+        android:layout_height="54dp"
+        android:textAlignment="center"
+        android:textColorHint="#000000"
+        app:hintTextColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/altura"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/altura"
+        app:layout_constraintTop_toBottomOf="@+id/altura"
+        app:layout_constraintVertical_bias="0.143">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pesoHint"
+            android:layout_width="378dp"
+            android:layout_height="54dp"
+            android:background="@drawable/borde"
+            android:hint="@string/peso_en_kilogramos"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:textSize="14sp"
+            android:inputType="number"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="120dp"
+        android:backgroundTint="#4CAF50"
+        android:text="@string/asd"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/peso"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/peso"
+        app:layout_constraintTop_toBottomOf="@+id/peso"
+        app:layout_constraintVertical_bias="0.619"
+        tools:ignore="TextContrastCheck,DuplicateSpeakableTextCheck" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

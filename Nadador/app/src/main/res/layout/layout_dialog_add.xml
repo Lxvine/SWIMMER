@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="22dp">
+
+    <EditText
+        android:id="@+id/fechaet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Fecha: "
+        android:autofillHints=""
+        android:importantForAutofill="no"
+        tools:ignore="HardcodedText,TextFields,VisualLintTextFieldSize">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/segundoset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:minHeight="48dp"
+        android:hint="Tiempo en segundos: "
+        android:inputType="number"
+        tools:ignore="Autofill,HardcodedText,VisualLintTextFieldSize" />
+
+    <EditText
+        android:id="@+id/distanciaet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:minHeight="48dp"
+        android:hint="Distancia en kilómetros: "
+        android:inputType="number"
+        tools:ignore="Autofill,HardcodedText,VisualLintTextFieldSize" />
+
+
+
+</RelativeLayout>
