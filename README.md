@@ -10,25 +10,26 @@
   <img src="https://github.com/Lxvine/SWIMMER/blob/master/Screenshots/swimmer1.png" style=" width:300px">
 </p>
 
-<p align="center">2) SPLASH SCREEN: </p>
+<p align="center">2) LOGIN SCREEN: </p>
 
 <p align="center">
   <img src="https://github.com/Lxvine/SWIMMER/blob/master/Screenshots/swimmer2.png" style=" width:300px">
 </p>
 
-<p align="center">3) SPLASH SCREEN: </p>
+<p align="center">3) MAIN MENU: </p>
 
 <p align="center">
   <img src="https://github.com/Lxvine/SWIMMER/blob/master/Screenshots/swimmer3.png" style=" width:300px">
 </p>
 
-<p align="center">4) SPLASH SCREEN: </p>
+<p align="center">4) TRAINING MENU: </p>
 
 <p align="center">
   <img src="https://github.com/Lxvine/SWIMMER/blob/master/Screenshots/swimmer4.png" style=" width:300px">
 </p>
 
-<p align="center">5) SPLASH SCREEN: </p>
+<p align="center">5) TRAINING INFO: </p>
+<p align="center">Clicking on each training it shows the info. </p>
 
 <p align="center">
   <img src="https://github.com/Lxvine/SWIMMER/blob/master/Screenshots/swimmer5.png" style=" width:300px">
